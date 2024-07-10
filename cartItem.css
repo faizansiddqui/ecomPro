@@ -1,0 +1,109 @@
+.cartItems{
+    margin: 80px 100px;
+    background: white;
+
+}
+.cartItems hr{
+    height: 3px;
+    background: #e2e2e2;
+    border: 0;
+}
+.cartitems-format-main{
+    display: grid;
+    grid-template-columns: 0.1fr 2.5fr 1fr 1fr 1fr 1fr;
+    align-items: center;
+    gap: 40px;
+    padding: 10px 0px;
+    color: #454545;
+    font-size: 18px;
+    font-weight: 600;
+}
+.cartitems-format-main > .title{
+    margin-left: 20px;
+}
+.cartitems-format{
+    font-size: 15px;
+    font-weight: 500;
+    margin-left: 30px;
+}
+.carticon-product-icon{
+    height: 52px;
+}
+.cartItems-remove-icon{
+    width: 20px;
+    margin: 0px 40px;
+    cursor: pointer;
+}
+.cartitem-quantity{
+    width: 64px;
+    height: 30px;
+    border: 2px solid #ebebeb;
+    background: #fff;
+    font-weight: 500;
+}
+.cartitems-down{
+    display: flex;
+    margin: 100px 0px;
+}
+.cartitems-total{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    margin-right: 200px;
+    gap: 40px;
+}
+.cartitems-total-items{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0px;
+}
+.cartitems-total button{
+    width: 200px;
+    height: 45px;
+    outline: none;
+    border: none;
+    background: #ff5a5a;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 7px;
+    cursor: pointer;
+}
+.cartitems-promocode{
+    flex: 1;
+    font-size: 16px;
+    font-weight: 500;
+}
+.cartitems-promocode p{
+    color: #555;
+}
+.cartitems-promobox{
+    width: 400px;
+    margin-top: 15px;
+    padding-left: 20px;
+    height: 40px;
+    background: #eaeaea;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.cartitems-promobox input{
+    border: none;
+    outline: none;
+    background: transparent;
+    font-size: 16px;
+    width: 200px;
+    height: 40px;
+}
+.cartitems-promobox button{
+    width: 100px;
+    height: 30px;
+    font-size: 13px;
+    background: black;
+    color: white;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    border-radius: 6px;
+}
