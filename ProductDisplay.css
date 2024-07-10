@@ -1,0 +1,97 @@
+.product-display{
+    display: flex;
+    width: 90vw;
+    margin: auto;
+    background: white;
+    padding: 10px;
+
+
+}
+.pdl{
+    display: flex;
+    gap: 17px;
+}
+.pdil{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.pdil img{
+    height: 63px;
+}
+.pdmi{
+    width: 260px;
+    height: 300px;
+}
+.pdr{
+    margin: 0px 60px;
+    display: flex;
+    flex-direction: column;
+}
+.pdr h1{
+    color: #3d3d3d;
+    font-size: 30px;
+    font-weight: 600;
+}
+.pdrs{
+    display: flex;
+    align-items: center;
+    margin-top: 13px;
+    gap: 5px;
+    color: #1c1c1c;
+    font-size: 15px;
+}
+.pdrp{
+    display: flex;
+    margin: 20px 0px;
+    gap: 15px;
+    font-size: 24px;
+    font-weight: 700;
+}
+.pdrpo{
+    color: #818181;
+    text-decoration: line-through;
+}
+.pdrpn {
+    color: #ff4141;
+}
+
+.pdrszs>h1{
+    margin-top: 30px;
+    color: #656565;
+    font-size: 28px;
+    font-weight: 600;
+}
+.pdrsz{
+    display: flex;
+    margin: 15px 0px;
+    gap: 30px;
+}
+.pdrszs div{
+    padding: 7px 18px;
+    background: #fbfbfb;
+    border: 1px solid #ebebeb;
+    border-radius: 3px;
+}
+.pdrszs div > div{
+    cursor: pointer;
+}
+.pdrb{
+    padding: 8px 0px;
+    width: 150px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 600;
+    color: #ffffff;
+    background: #ff4141;
+    border: none;
+    outline: none;
+    margin-bottom: 20px;
+    border-radius: 4px;
+}
+.pdrc{
+    margin-top: 10px;
+}
+.pdrc>span{
+    font-weight: 600 ;
+}
